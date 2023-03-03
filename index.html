@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Dev Cheatsheet</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Quattrocento&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <nav>
+            <ul>
+                <li><a href="#intro">HOME</a></li>
+                <li><a href="#html">HTML</a></li>
+                <li><a href="#css">CSS</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="banner">
+        <h1>Your Go-To Guide For Web Dev Basics <br><br>
+        <span id="code">&lt;/&gt</span></h1>
+        <h2>A concise guide on the basics of HTML and CSS</h2>
+    </div>
+
+    <!-- Introduction -->
+    <div id="intro">
+        <h3>Welcome</h3>
+        <p>Welcome to our HTML and CSS documentation page! Here you'll find some basic information you need to get started with creating websites. HTML and CSS are the backbone of any good website. <br> <br>
+        Whether you are new or experienced, be sure to use this resource as much as you need!</p>
+    </div>
+    <!-- HTML Content -->
+    <div id="html">
+        <h3 class="title">HTML</h3>
+        <h4 class="subtitle">Tables</h4>
+        <p class="text">HTML tables are used to organize data in rows and columns. The table is created using the "&lt;table&gt;" tag and the rows are defined using the "&lt;tr&gt;" tag. The cells in each row are defined using the "&lt;td&gt;" tag, and headers for each column can be defined using the "&lt;th&gt;" tag. <br> <br>
+            Attributes can be added to each of these tags to control the appearance and behavior of the table. For example, the "border" attribute can be used to add a border around the table. <br><br>
+            The content of each cell can include text, images, links, or other HTML elements. Tables can also be nested within each other to create more complex layouts. <br><br>
+            Once the table is defined, it can be styled using CSS to control the font, color, spacing, and other visual properties. Overall, HTML tables provide a flexible way to display tabular data on a web page.</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>HTML</th>
+                    <th>Attribute Name</th>
+                    <th>Attribute Function</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> &lt;table&gt;</td>
+                    <td>Table</td>
+                    <td>Creates a table in your HTML document</td>
+                </tr>
+                <tr>
+                    <td>&lt;thead&gt;</td>
+                    <td>Table Header</td>
+                    <td>Creates the first row of data for your table, usually consisting of colomn headings</td>
+                </tr>
+                <tr>
+                    <td>&lt;tr&gt;</td>
+                    <td>Table Row</td>
+                    <td>Creates a row for table data to be added to</td>
+                </tr>
+                <tr>
+                    <td>&lt;th&gt;</td>
+                    <td>Table Head</td>
+                    <td>Creates a column heading. Centered and bold by default</td>
+                </tr>
+                <tr>
+                    <td>&lt;td&gt;</td>
+                    <td>Table Data</td>
+                    <td>Creates a cell to input data into the table</td>
+                </tr>
+                <tr>
+                    <td>&lt;tbody&gt;</td>
+                    <td>Table Body</td>
+                    <td>Creates the section where your row titles and table content will go</td>
+                </tr>
+                <tr>
+                    <td>&lt;tfoot&gt;</td>
+                    <td>Table Footer</td>
+                    <td>Creates the footer for the table, where summaries and totals are typically located</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">This is the Footer Area</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+
+    <!-- CSS Content -->
+    <div id="css">
+        <h3 class= "title">CSS</h3>
+        <h4 class= "subtitle">Selectors</h4>
+        <p class="text">CSS selectors are used to target specific HTML elements in order to apply styling to them. Selectors can be based on various criteria such as the element type, class, ID, attributes, and relationship to other elements in the HTML document. <br><br>
+            For example, the "type selector" targets all elements of a specific type, such as all "&lt;p&gt;" elements. The "class selector" targets elements with a specific class attribute value, such as elements with the class "example". The "ID selector" targets an element with a specific ID attribute value, such as an element with the ID "header". <br><br>
+            Selectors can be combined and nested to create more specific targeting, and multiple selectors can be applied to a single rule. Once a selector targets an element, CSS properties can be applied to control its appearance, such as font size, color, padding, margin, and more. <br><br>
+            Overall, CSS selectors allow developers to precisely target specific elements in an HTML document and apply custom styling to achieve the desired look and feel of a web page.</p> <br><br>
+    </div>
+</body>
+</html>
